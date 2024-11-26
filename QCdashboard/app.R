@@ -1,0 +1,17 @@
+options(dplyr.summarise.inform = FALSE)
+source("/srv/shiny-server/libraries/libraries.R")
+source("/srv/shiny-server/loginAuth/labels.R")
+source("/srv/shiny-server/loginAuth/user_info.R")
+source("/srv/shiny-server/input/inputFiles.R")
+source("/srv/shiny-server/input/sample_size.R")
+source("/srv/shiny-server/modules/landingPageUI.R")
+source("/srv/shiny-server/modules/landingPageServer.R")
+source("/srv/shiny-server/modules/dashboardSideBarUI.R")
+source("/srv/shiny-server/modules/dashboardBodyUI.R")
+source("/srv/shiny-server/modules/dashboardAuthHeaderUI.R")
+source("/srv/shiny-server/modules/dashboardServer.R")
+source("/srv/shiny-server/global/ui.R")
+source("/srv/shiny-server/global/server.R")
+
+shinyApp(ui, server)
+
