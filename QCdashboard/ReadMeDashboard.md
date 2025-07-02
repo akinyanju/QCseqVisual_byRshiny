@@ -39,7 +39,7 @@ This diagram shows how the main scripts and modules interact in the Genome Techn
 ```mermaid
 flowchart TD
   %% Define font style class
-  classDef bigText fill:white,stroke:black,font-size:30px;
+  classDef bigText fill:white,stroke:black,font-size:50px;
 
   %% Crawlers
   A1[🛠 crawlerSeqMetrics.sh: must launch in svc-gt-delivery account] --> A2[gatherSequencingMetrics.sh]
