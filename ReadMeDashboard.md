@@ -46,7 +46,7 @@ flowchart TD
   A3[crawlerQCmetricsScript.sh] --> A4[duckDBgatherwebQCmetrics.sh]
 
   %% Output from gather scripts
-  A2 --> B1[SequencingMetrics.csv]
+  A2 --> B1[SequencingMetrics.csv] --> B2[GTdashboardMetrics.duckdb]
   A4 --> B2[GTdashboardMetrics.duckdb]
   update_projstatus.sh[update_projstatus.sh: updates Delivered/Undelivered status in DB] --> B2
 
